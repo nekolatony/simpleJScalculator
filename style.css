@@ -1,0 +1,47 @@
+body{
+padding: 200;
+margin:100px;
+margin-left: 200px;
+margin-top: 90px;
+background-color:rgb(245, 228, 208);
+}
+
+
+ .keys{
+     display: grid;
+ }
+
+.result{
+    background-color: aliceblue;
+    width: 200px;
+    height: 60px;
+    border-color: aqua;
+    border-width:10px;
+}
+
+button{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(241, 202, 25);
+}
+
+.row{
+    display:flex;
+    
+}
+
+.equal{
+    height: 120px;
+    background-color: rgb(24, 140, 175);
+    transform:translate(150px,-30px)
+}
+
+.row2{
+    display:flex;
+    transform:translateY(-120px);
+    
+}
+
+button:hover{
+    background-color: rgb(230, 39, 39);
+}
